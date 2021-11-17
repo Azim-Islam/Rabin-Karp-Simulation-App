@@ -43,7 +43,7 @@ with st.form("rbk_inputs"):
     string = st.text_input("Enter String")
     pattern = st.text_input("Enter Pattern String")
     d = st.text_input("Enter d (Default = 256)")
-    p = st.text_input("Enter prime number")
+    p = st.text_input("Enter p (Prime Number)")
     
     submitted = st.form_submit_button("Submit")
     
